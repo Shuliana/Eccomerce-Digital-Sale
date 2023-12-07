@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>Digital sale</title>
+</head>
+<body>
+<header>
+          <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid tamaño-maximo">
+              
+              <h1><a class="navbar-brand" href="#">Logo Digital sale</a></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#quienes-somos">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nuestros-produc">Nuestros productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#productos-destacados">Lo más destacado</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contáctanos</a>
+                  </li>
+   
+                </ul>
+              </div>
+            </div>
+          </nav>
+</header>
+  
+<main> 
+  <section class="banner">
+    <h2>¡Bienvenido!</h2>
+    <div id="sliderInicio" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <picture class="c-img">
+            <source
+              media="(min-width: 1024px)"
+              srcset="./recurso-graficos/banner/img-tablet2/vista-superior-conjunto-gadgets-img-mediana.jpg"
+            >
+            <source
+              media="(min-width: 768px)"
+              srcset="./recurso-graficos/banner/img-tablet-1/vista-superior-conjunto-gadgets-img-chica.jpg"
+            >
+            <img
+              src="./recurso-graficos/banner/img-default/vista-superior-conjunto-gadgets-img-mediana.jpg"
+              class="d-block w-100"
+              alt="Una mujer en la naturaleza usando los auriculares"
+            >
+          </picture>
+        </div>
+        <div class="carousel-item c-item">
+          <picture class="c-img">
+            <source
+              media="(min-width: 1024px)"
+              srcset="./recurso-graficos/banner/img-tablet2/dispositivos-electronico-img-mediana.jpg"
+            >
+            <source
+              media="(min-width: 768px)"
+              srcset="./recurso-graficos/banner/img-tablet-1/dispositivos-electronicos-img-chica.jpg"
+            >
+            <img
+              src="./recurso-graficos/banner/img-default/dispositivos-electronico-img-mediana.jpg"
+              class="d-block w-100"
+              alt="La misma mujer pero una toma mas de cerca a los auriculares"
+            >
+          </picture>
+        </div>
+        <div class="carousel-item c-item">
+          <picture class="c-img">
+            <source
+              media="(min-width: 992px)"
+              srcset="./recurso-graficos/banner/img-tablet2/concepto-equilibrio-dispositivos-electronicos-img-mediana.jpg"
+            >
+            <source
+              media="(min-width: 768px)"
+              srcset="./recurso-graficos/banner/img-tablet-1/concepto-equilibrio-dispositivos-electronicos-img-chica.jpg"
+            >
+            <img
+              src="./recurso-graficos/banner/img-default/concepto-equilibrio-dispositivos-electronicos-img-mediana.jpg"
+              class="d-block w-100"
+              alt="Auriculares beats sobre unas rocas en la naturaleza"
+            >
+          </picture>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#sliderInicio"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true">izquierda</span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#sliderInicio"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true">derecha</span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin Slider -->
+
+  </section> 
+  <!-- Seccion quienes somos --> 
+    <section class="clearfix quienes-somos tamaño-maximo" id="quienes-somos">
+        <h3>Quienes somos</h3>
+        <div class="fila cont-quienes-somos">
+          <img src="./recurso-graficos/svg/Ecommerce-campaign-amico.svg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Ilustracion grafica de eccomeerce">
+      
+          <div class="column cont-acordion">
+            <p>
+              <strong>Somos Digitale Sale</strong> tienda de tecnología dedicada ala venta de productos tecnologicos, nos enfocamos en brindarle a nuestros clientes una excelente experiencia de compra, con los mejores precios y asesoramiento personalizado.
+            </p>
+            
+            
+            <div class="accordion" id="accordionExample">
+                      <div class="accordion-item col-sm-10">
+                        <h4 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Nuestra historia
+                          </button>
+                        </h4>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>
+                              El primer comercio <strong>se estableció en la ciudad de Morón, Gran Buenos Aires,</strong> y la actividad principal era el <strong>soporte técnico informático.</strong><br> El negocio funcionaba como un taller de reparación, brindando servicios en las zonas aledañas, pero con el tiempo fue creciendo y comenzó a diversificarse, incorporando todo tipo de <strong>hardware para PC.</strong><br> Se crearon también cuentas en MercadoLibre y Facebook, seguidas de una página web, lo que permitió que la empresa se acerque más a sus clientes y promocione sus productos y servicios en Internet.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item col-lg-10">
+                        <h4 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Misión
+                          </button>
+                        </h4>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>Brindarles a nuestros clientes las mejores <strong>soluciones informáticas</strong> diferenciándonos de la competencia.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item col-lg-10">
+                        <h4 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Valores
+                          </button>
+                        </h4>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p>
+                              Convertirnos en una <strong>empresa líder en el mercado de la tecnología</strong>,
+                            ofreciendo a nuestros clientes la mejor calidad de atención al precio más conveniente.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+    <!-- Seccion nuetros productos -->
+    <section class="clearfix tamaño-maximo" id="nuestros-produc">
+        <h3>Nuestros productos</h3>
+        <div class="fila cont-quienes-somos">
+              <img src="./recurso-graficos/svg/Nerd-amico.svg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Ilustracion de una persona con una Notebook" width="600">
+          
+            <div class="column nuestros-product-cont">
+                <p>
+                <strong>Digitale Sale</strong> es una tienda de tecnología dedicada a la venta de <em>notebooks, pc de escritorio, baterias, monitores y accesorios de informática</em>.<br>
+                Con envíos a todo el país, llegamos a los distintos puntos de Argentina, con Andreani como principal transportista.
+              </p>
+            </div>
+        </div>
+  </section>
+  <!-- Seccion lo mas destacado -->
+  <section class="tarjetas-productos tamaño-maximo" id="productos-destacados">
+      <h3 class="titulo-productos">Lo más destacado</h3>
+      
+        <ul class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 g-4">
+          <li class="col">
+            <div class="card h-100 centrar">
+              <img src="./recurso-graficos/img-productos-tam-chico/Laptop-ASUS.png" class="card-img-top" alt="Imagen de Laptop ASUS" width="150">
+              <div class="card-body">
+                <h5 class="card-title">NOTEBOOK ASUS 15.6 RYZEN 7</h5>
+                <p class="card-text">Disfrutá de la perfecta combinación de rendimiento y diseño.</p>
+                <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Ver detalle
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card h-100 centrar">
+              <img src="./recurso-graficos/img-productos-tam-chico/monitor-hp.png" class="card-img-top" alt="Imagen de Monitor HP" width="150">
+              <div class="card-body">
+                <h5 class="card-title">MONITOR HP M24FW FHD</h5>
+                <p class="card-text">Extiende tus aplicaciones y disfruta tus series favoritas.</p>
+                <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop-2">
+                  Ver detalle
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card h-100 centrar">
+              <img src="./recurso-graficos/img-productos-tam-chico/monitor-redragon.png" class="card-img-top" alt="Imagen de Monitor Redragon" width="150">
+              <div class="card-body">
+                <h5 class="card-title">MONITOR REDRAGON RUBY 24</h5>
+                <p class="card-text">Pensado para entusiastas y gamers profesionales por su alto rendimiento y gran fluidez.</p>
+                <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop-3">
+                  Ver detalle
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card h-100 centrar">
+              <img src="./recurso-graficos/img-productos-tam-chico/teclado-logitech-k650-.png" class="card-img-top" alt="Imagen de Teclado Logitech" width="150">
+              <div class="card-body">
+                <h5 class="card-title">TECLADO LOGITECH SIGNATURE K650</h5>
+                <p class="card-text">Se adapta perfectamente a tus necesidades diarias con accesos directos mejorados.</p>
+                <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop-4">
+                  Ver detalle
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card h-100 centrar">
+              <img src="./recurso-graficos/img-productos-tam-chico/pebble-keys-2-k380s-top-tonal-roe.png" class="card-img-top" alt="Imagen de Teclado Logitech rosa" width="150">
+              <div class="card-body">
+                <h5 class="card-title">TECLADO INALAMBRICO LOGITECH K380 MAC WIND</h5>
+                <p class="card-text">Resalta por ser resistente y muy de buena calidad, por lo que podrás disfrutarlo por un largo tiempo.</p>
+                <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop-5">
+                  Ver detalle
+                </button>
+              </div>
+            </div>
+          
+        </li>
+      </ul>
+  </section>
+    <!-- Modales -->
+<div class="container-modales">
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel-1">NOTEBOOK ASUS 15.6 RYZEN 7 6800H 16G 512GB RTX3060 W11H</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <ul>
+            <li class="img-lista"><img src="./recurso-graficos/img-productos-tam-chico/Laptop-ASUS.png" class="card-img-top" alt="Imagen de Laptop ASUS" width="150"></li>
+            <li>
+              Modelo	90NR0845-M003T0
+            </li>
+            <li>
+             Nº Parte	G513RM-HQ084W
+            </li>
+            <li>
+              Pantalla	15.6 WQHD (2560 x 1440) 16
+            </li>
+            <li> 
+              Procesador	AMD Ryzen™ 7 6800H Mobile Processor (8-core/16-thread, 20MB cache, up to 4.7 GHz max boost)
+            </li>
+            <li>
+              Memoria	8GB DDR5 (extraible) + 8GB DDR5 (extraible)    
+            </li>
+            <li>
+              Disco	512GB M.2 NVMe™ PCIe® 4.0 SSD
+            </li>
+            <li>
+              VGA	NVIDIA® GeForce RTX™ 3060 Laptop GPU 6GB GDDR6
+            </li>
+            <li>
+             S.O.	Windows 11 Home
+            </li>
+            <li>
+              <span class="color-precio">Precio: $1.399.990</span>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel-2">MONITOR HP M24fw FHD</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li class="img-lista"><img src="./recurso-graficos/img-productos-tam-chico/monitor-hp.png" class="card-img-top" alt="Imagen de Monitor HP" width="150"></li>
+            <li>
+
+              Frecuencia de escaneo de pantalla (horizontal)	30 a 86 KHz
+            </li>
+            <li>
+              Frecuencia de escaneo de pantalla (vertical)	48 a 75 Hz
+            </li>
+            <li>
+             Profundidad de bits de panel	8 bits (6 bits + FRC)
+            </li>
+            <li>
+              Tratamiento de la pantalla	Antirreflejo
+            </li>
+            <li>
+              Luz azul baja	Si, Pantalla con certificación Eyesafe®
+            </li>
+            <li>
+             Tamaño de pantalla (diagonal)	60,45 cm (23,8")
+            </li>
+            <li>
+              Soporte desmontable
+              Curvatura	Plana
+            </li>
+            <li>
+              <span class="color-precio">Precio: $319.999</span>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="staticBackdrop-3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel-3">MONITOR REDRAGON RUBY 24</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li class="img-lista"><img src="./recurso-graficos/img-productos-tam-chico/monitor-redragon.png" class="card-img-top" alt="Imagen de Monitor Redragon" width="150"></li>
+            <li>
+              Tamaño de pantalla del panel: 23.6 " LED
+            </li>
+            <li>
+              Tipo de panel: Plano Slim VA
+            </li>
+            <li>
+              Brillo: 250 cd/m2
+            </li>
+            <li>
+              NTSC: NTSC 69%
+            </li>
+            <li>
+              Contraste: 3000 : 1
+            </li>
+            <li>
+              Distancia del píxel: 0.27156mm*0.27156mm
+            </li>
+            <li>
+              Resolución (H x V): 1920 * 1080
+            </li>
+            <li>
+              Relación de aspecto: 16:09
+            </li>
+            <li><span class="color-precio"> Precio: $311.839</span></li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop-4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel-4">Teclado Logitech Signature K650 Inalámbrico Bluetooth 5.1 Color Del Teclado Negro Idioma Español España</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li class="img-lista"><img src="./recurso-graficos/img-productos-tam-chico/teclado-logitech-k650-.png" class="card-img-top" alt="Imagen de Teclado Logitech" width="150"></li>
+            <li>
+              Marca Logitech
+            </li>
+            <li>
+              Modelo K650
+            </li>
+            <li>
+              Color del teclado Negro
+            </li>
+            <li>Layout
+              QWERTY</li>
+            <li>Idioma Español España</li>
+            <li>Modelo detallado
+              Signature K650</li>
+            <li>
+              Peso y dimensiones
+              Altura del teclado
+              193.5 mm
+              Ancho del teclado
+              457.3 mm
+              </li>
+            <li>Profundidad del teclado
+              24 mm
+            </li>
+            <li><span class="color-precio">Precio: $85.000</span></li>
+ 
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop-5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel-5">Teclado Multidispositivo Logitech K380</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li class="img-lista"><img src="./recurso-graficos/img-productos-tam-chico/pebble-keys-2-k380s-top-tonal-roe.png" class="card-img-top" alt="Imagen de Teclado Logitech rosa" width="150"></li>
+            <li>Tipo de conexión: Bluetooth Classic (3.0)</li>
+            <li>Radio de acción inalámbrico: 10 m 2El radio de acción inalámbrico depende de las condiciones del entorno y de los dispositivos</li>
+            <li>Software compatible
+             Logitech Options para Windows (Windows 7, 8, 10 o posteriores)</li>
+            <li>Logitech Options para Mac (OS X 10.8 o posteriores)</li>
+            <li>Logitech Flow</li>
+            <li>Batería: 2 x AAA</li>
+            <li>Batería: 24 meses</li>
+            <li>Indicadores luminosos (LED): LED de baterías, 3 LED de canales Bluetooth</li>
+            <li><span>Precio: $
+              49.769</span></li>
+
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Seccion atencion al publico -->
+
+  <section class="atencion-publico tamaño-maximo">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="./recurso-graficos/svg/atencion-publico.svg" class="img-fluid rounded-start" alt="Imagen productos gamer" width="1200">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <div class="container column">
+              <h5 class="card-title">ATENCIÓN AL PUBLICO</h5>
+              <p class="card-text">
+                ventas@digitalsale.com
+              </p>
+              <h5 class="card-title">¿DONDE ESTAMOS?</h5>
+              <p class="card-text"> 
+                Av. rivadavia 3456, loca l 19 Caba llito
+              </p>
+              <h5 class="card-title">HORARIOS DE ATENCIÓN</h5>
+              <p class="card-text">
+                Lunes a viernes 11:00 a 20:00hs. Sábado 10:00 a 14:00hs
+              </p>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Seccion contacto-->
+  <section class="contacto tamaño-maximo" id="contacto">
+    <h3>Contáctanos</h3>
+    <form class="row form-contacto" method="get" action="#" enctype="application/x-www-form-urlencoded">
+        <div class="mb-3 col-md-6 col-sm-12">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control col-sm-12" id="nombre">
+        </div>
+        <div class="mb-3  col-md-6 col-sm-12">
+          <label for="telefono" class="form-label">Telefono</label>
+          <input type="tel" class="form-control col-sm-12" id="telefono">
+        </div>
+   
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">No se compartira su información con nadie, respetamos su privacidad.</div>
+      </div>
+      <div class="mb-3">
+        <label for="FormCom" class="form-label">Dejanos tu comentarios y preguntas
+        </label>
+        <textarea class="form-control" id="FormCom" rows="3">Déjanos tu opinión</textarea>
+      </div>
+      
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Acepto recibir notificaciones</label>
+      </div>
+      <input type="submit" class="btn btn-primary col-sm-10 col-md-6 col-xl-4" value="ENVIAR">
+    </form>
+    
+  </section>
+
+   </main>
+  <!-- Seccion pie de pagina -->
+   <footer>
+     <section class="tamaño-maximo datos-personales">
+          <div>
+            <h5>Datos alumno</h5>
+          <div class="col pt-3" >
+              <img src="./recurso-graficos/Foto-personal/foto-personal-yuli.jpeg" class="foto-personal" alt="foto personal" width="200">
+              <p>Yuliana Prado</p>
+              <p>Fecha de nacimiento: 29/09/2001</p>
+              <p>Correo electronico: yuliana.prado@davinci.edu.ar</p>
+          </div>
+          </div>
+      
+      </section>
+   </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

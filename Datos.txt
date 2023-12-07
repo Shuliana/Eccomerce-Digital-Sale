@@ -1,0 +1,10 @@
+Escuela de Arte Multimedial Da Vinci
+CARRERA: Diseño y Programación Web
+MATERIA: Interacción con Dispositivos Móviles
+TRABAJO PRÁCTICO: Examen Recuperatorio Parcial 2
+PROFESOR: D’Addezio Alejandro
+ALUMNO: [Yuliana Prado]
+CUATRIMESTRE: 2do Cuatrimestre
+COMISIÓN: DWT2AV
+TURNO: Tarde
+FECHA DE ENTREGA: 06/12/2023
